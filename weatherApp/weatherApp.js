@@ -1,4 +1,4 @@
-const apiKey = "782a093942c509e84eda683a091fd4c4"
+const apiKey = process.env.REACT_APP_WEATHER_KEY
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 const searchBox = document.querySelector('.search input')
